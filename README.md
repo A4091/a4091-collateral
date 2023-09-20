@@ -22,6 +22,9 @@ You can find the art work in the `box/` subdirectory. *NOTE:* The first batch
 of boxes we had manufactured were 17" x 6.75" x 3.25" as we did not have any
 exact measurements to go by.
 
+![Box](images/a4091_box.jpg?raw=True)
+![Box Unfolded](images/a4091_box-unfolded.jpg?raw=True)
+
 ## The Manual
 
 The A4091 manual is 5.5" x 7.75" in size. If you get it professionally printed,
@@ -52,9 +55,28 @@ recommended to apply some foil into the double bend.
 Feel free to [contact us](mailto:a4091@amiga.technology) if you need a bracket.
 We might still have some left.
 
+![Bracket](images/a4091_bracket.jpg?raw=True)
+
+
+## Disk Labels
+
+While the disk content is part of the a4091-software package, you can find a
+set of disk labels here.
+
+![Disk](images/a4091_disk.jpg?raw=True)
+
+
 ## Miscellaneous
 
-- Szymon Gosk made a A4091 themed SCSI2SD bracket that you can 3d print
+- Szymon Gosk made a A4091 themed SCSI2SD adapter that you can 3d print
   yourself.
 
+![SCSI2SD](images/a4091_adapter_v1.jpg?raw=True)
+
+- There is also a newer version with a slightly different design that works
+well with ZuluSCSI too.
+
+![Adapter](images/a4091_adapter_v2.jpg?raw=True)
+![Adapter Zulu](images/a4091_adapter_v2_zulu.jpg?raw=True)
+![Adapter Side](images/a4091_adapter_v2_flat.jpg?raw=True)
 
