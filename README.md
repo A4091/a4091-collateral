@@ -65,6 +65,12 @@ set of disk labels here.
 
 ![Disk](images/a4091_disk.jpg?raw=True)
 
+## Amiga 3000 LED adapter
+
+A small adapter that lets you connect your A4091 to your A3000 LEDs. Gerbers
+and KiCAD files included.
+
+![LED adapter](images/a4091_a3kled.jpg?raw=True)
 
 ## Miscellaneous
 
