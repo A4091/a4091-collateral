@@ -77,12 +77,12 @@ and KiCAD files included.
 - Szymon Gosk made a A4091 themed SCSI2SD adapter that you can 3d print
   yourself.
 
-![SCSI2SD](images/a4091_adapter_v1.jpg?raw=True)
+![SCSI2SD](images/SCSI2SD_Adapter_by_Szymon_Gosk_v1.stl?raw=True)
 
 - There is also a newer version with a slightly different design that works
 well with ZuluSCSI too.
 
-![Adapter](images/a4091_adapter_v2.jpg?raw=True)
+![SCSI2SD](images/SCSI2SD_ZuluSCSI_Adapter_by_Szymon_Gosk_v2.stl?raw=True)
 ![Adapter Zulu](images/a4091_adapter_v2_zulu.jpg?raw=True)
 ![Adapter Side](images/a4091_adapter_v2_flat.jpg?raw=True)
 
