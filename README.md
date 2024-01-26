@@ -70,19 +70,30 @@ set of disk labels here.
 A small adapter that lets you connect your A4091 to your A3000 LEDs. Gerbers
 and KiCAD files included.
 
-![LED adapter](images/a4091_a3kled.jpg?raw=True)
+![LED adapter](images/a4091_3kled.jpg?raw=True)
 
 ## Miscellaneous
+
+There are a couple of 3d-printable designs available to accompany the A4091
+SCSI controller.
+
+- An enclosure for the A4091 Terminator. This enclosure comes in two versions,
+  Version v1 is optimized for printing on an FDM printer as the text on the lid
+  is recessed. Version v2 has embossed text and is better printed on a Resin
+  printer.
+
+  [A4091 Terminator enclosure v1](images/A4091_terminator_enclosure_v1.jpg?raw=True)
+  [A4091 Terminator enclosure v2](images/A4091_terminator_enclosure_v2.jpg?raw=True)
 
 - Szymon Gosk made a A4091 themed SCSI2SD adapter that you can 3d print
   yourself.
 
-![SCSI2SD](images/SCSI2SD_Adapter_by_Szymon_Gosk_v1.stl?raw=True)
+![SCSI2SD](images/SCSI2SD_Adapter_by_Szymon_Gosk_v1.png?raw=True)
 
 - There is also a newer version with a slightly different design that works
 well with ZuluSCSI too.
 
-![SCSI2SD](images/SCSI2SD_ZuluSCSI_Adapter_by_Szymon_Gosk_v2.stl?raw=True)
+![SCSI2SD](images/SCSI2SD_ZuluSCSI_Adapter_by_Szymon_Gosk_v2.png?raw=True)
 ![Adapter Zulu](images/a4091_adapter_v2_zulu.jpg?raw=True)
 ![Adapter Side](images/a4091_adapter_v2_flat.jpg?raw=True)
 
