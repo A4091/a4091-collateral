@@ -82,8 +82,8 @@ SCSI controller.
   is recessed. Version v2 has embossed text and is better printed on a Resin
   printer.
 
-  [A4091 Terminator enclosure v1](images/A4091_terminator_enclosure_v1.jpg?raw=True)
-  [A4091 Terminator enclosure v2](images/A4091_terminator_enclosure_v2.jpg?raw=True)
+  ![A4091 Terminator enclosure v1](images/A4091_terminator_enclosure_v1.jpg?raw=True)
+  ![A4091 Terminator enclosure v2](images/A4091_terminator_enclosure_v2.jpg?raw=True)
 
 - Szymon Gosk made a A4091 themed SCSI2SD adapter that you can 3d print
   yourself.
