@@ -3,12 +3,16 @@
 //  This is a box for the A4091 active terminator
 //
 
-include <../YAPP_Box/library/YAPPgenerator_v30.scad>
+include <../YAPP_Box/YAPPgenerator_v3.scad>
 
 //-- which part(s) do you want to print?
-printBaseShell        = false;
+printBaseShell        = true;
 printLidShell         = true;
 printSwitchExtenders  = false;
+
+// Label depth: positive = debossed/engraved (FDM), negative = embossed/raised (resin/SLA)
+// function labelDepth() = 0.1;
+function labelDepth() = -0.6;
 
 //-- pcb dimensions -- very important!!!
 pcbLength           = 69.6; // Front to back
@@ -40,6 +44,15 @@ lidWallHeight       = 2;
 ridgeHeight         = 4.0;
 ridgeSlack          = 0.3;
 roundRadius         = 2.0;
+
+//-- Box edge style (added in YAPP v3.2)
+//--   0 = all edges rounded (original v30 look)
+//--   1 = all edges square
+//--   2 = all edges chamfered
+//--   3 = square top/bottom, rounded vertical
+//--   4 = square top/bottom, chamfered vertical
+//--   5 = chamfered top/bottom, rounded vertical
+boxType             = 0;
 
 //-- How much the PCB needs to be raised from the base
 //-- to leave room for solderings and whatnot
@@ -170,7 +183,8 @@ snapJoins =
 
 labelsPlane =
 [
-    [12, 15, 0, 0.1, yappTop, "Optima:style=bold", 5, "A4091 Terminator" ]
+    [shellLength/2, shellWidth/2, 180, labelDepth(), yappLid, "Optima:style=bold", 5,
+     "A4091 Terminator", 0, yappTextLeftToRight, yappTextHAlignCenter, yappTextVAlignCenter ]
 
 ];
 
